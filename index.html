@@ -7,8 +7,63 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="all">
+        <header class="header">
+            <div class="container">
+                <a href="/" class="logo">
+                    Loans.com
+                </a>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__el"><a class="menu__link" href="">Rates & Fees</a></li>
+                        <li class="menu__el"><a class="menu__link" href="">How to apply</a></li>
+                        <li class="menu__el"><a class="menu__link" href="">Questions?</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="main">
+            <div class="container main__container">
+                <div class="intro__info">
+                    <h1>Personal Loan</h1>
+                    <h2>Put your plans into actions.</h2>
+                    <div class="info__icons">
+                        <p class="icons__item">Online application</p>
+                        <p class="icons__item2">Up to $50.000</p>
+                        <p class="icons__item3">The money is yours in 48h</p>
+                    </div>
+                </div>
+
+                <div class="intro__form">
+                    <h2>Let's change your life?</h2>
+                    <form class="form">
+                        <div class="form-row">
+                            <label for="name" class="label__txt">Full name</label>
+                            <input id="name" name="name" type="text" class="form-input" placeholder="John Doe">
+                        </div>
+                        <div class="form-row">
+                            <label for="email" class="label__txt">E-mail</label>
+                            <input id="email" name="email" type="text" class="form-input" placeholder="johndoe@apple.com">
+                        </div>
+                        <div class="form-row">
+                            <label for="ammount" class="label__txt">How much do you need?</label>
+                            <input id="ammount" name="ammount" type="text" class="form-input" placeholder="1.000">
+                        </div>
+                        <div class="form-row-btn">
+                            <button type="submit" class="form-btn">
+                                Check your rates
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
 
 </body>
 </html>
